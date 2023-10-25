@@ -24,10 +24,21 @@
             }
         }
     }
+    .profile-image {
+        width: 50%;
+        float: right;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
     &.white{
         h3,p{
             color: #fff;
         }
+    }
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
     }
 }
 
