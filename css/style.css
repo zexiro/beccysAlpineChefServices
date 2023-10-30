@@ -12,6 +12,8 @@
 /* small mobile :320px. */
 /* Large Mobile :480px. */
 /* 1. Theme default css */
+/*Pink from logo: #FF5D90*/
+/*green from site #78b454*/
 body {
   font-family: "Josefin Sans", sans-serif;
   font-weight: normal;
@@ -246,27 +248,27 @@ h3 {
   font-weight: 600;
   display: inline-block;
   padding: 18px 39px;
-  border: 2px solid #78b454;
+  border: 2px solid #FF5D90;
   text-transform: capitalize;
 }
 .boxed_btn:hover {
-  background: #78b454;
+  background: #FF5D90;
   color: #fff;
 }
 
 .boxed-btn {
-  color: #78b454 !important;
+  color: #FF5D90 !important;
   font-size: 15px;
   font-weight: 600;
   display: inline-block;
   padding: 18px 39px;
-  border: 2px solid #78b454;
+  border: 2px solid #FF5D90;
   text-transform: capitalize;
   cursor: pointer;
   background: #fff;
 }
 .boxed-btn:hover {
-  background: #78b454;
+  background: #FF5D90;
   color: #fff !important;
 }
 
@@ -290,7 +292,7 @@ h3 {
 }
 
 .load_more_btn {
-  background: #78b454;
+  background: #FF5D90;
   color: #fff;
   text-align: center;
   padding: 16px 41px;
@@ -300,8 +302,8 @@ h3 {
   font-weight: 700;
 }
 .load_more_btn:hover {
-  color: #78b454 !important;
-  border: 2px solid #78b454;
+  color: #FF5D90 !important;
+  border: 2px solid #FF5D90;
   background: #fff;
 }
 
@@ -424,10 +426,10 @@ h3 {
 }
 .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #78b454;
+  color: #FF5D90;
 }
 .slicknav_menu .slicknav_nav a.active {
-  color: #78b454;
+  color: #FF5D90;
 }
 @media (max-width: 767px) {
   .slicknav_menu .slicknav_nav a i {
@@ -570,7 +572,7 @@ h3 {
 .header-area .main-header-area .main-menu ul li a::before {
   position: absolute;
   content: "";
-  background: #78b454;
+  background: #FF5D90;
   width: 100%;
   height: 2px;
   bottom: 0;
@@ -613,7 +615,7 @@ h3 {
   display: none;
 }
 .header-area .main-header-area .main-menu ul li .submenu li:hover a {
-  color: #78b454;
+  color: #FF5D90;
 }
 .header-area .main-header-area .main-menu ul li:hover > .submenu {
   opacity: 1;
@@ -666,7 +668,7 @@ h3 {
   display: inline-block;
 }
 .header-area .main-header-area.sticky .logo-img img {
-  width: 80px;
+  width: 200px;
 }
 .header-area .main-header-area.sticky .main-menu ul li {
   display: inline-block;
@@ -703,7 +705,7 @@ h3 {
 .header-area .main-header-area.sticky .main-menu ul li a::before {
   position: absolute;
   content: "";
-  background: #78b454;
+  background: #FF5D90;
   width: 100%;
   height: 2px;
   bottom: 0;
@@ -746,7 +748,7 @@ h3 {
   display: none;
 }
 .header-area .main-header-area.sticky .main-menu ul li .submenu li:hover a {
-  color: #78b454;
+  color: #FF5D90;
 }
 .header-area .main-header-area.sticky .main-menu ul li:hover > .submenu {
   opacity: 1;
@@ -760,6 +762,9 @@ h3 {
 
 .logo-img {
   display: inline-block;
+}
+.logo-img img {
+  width: 350px;
 }
 
 .header-area {
@@ -870,7 +875,7 @@ h3 {
   }
 }
 .service_area .single_service .service_icon i {
-  color: #78b454;
+  color: #FF5D90;
   font-size: 50px;
 }
 .service_area .single_service h4 {
@@ -886,7 +891,7 @@ h3 {
   line-height: 28px;
 }
 .service_area .single_service:hover {
-  background: #78b454;
+  background: #FF5D90;
   border: 2px solid transparent;
 }
 .service_area .single_service:hover h4, .service_area .single_service:hover p, .service_area .single_service:hover i {
@@ -894,7 +899,7 @@ h3 {
 }
 
 .video_bg {
-  background-image: url(../img/banner/banner-2.png);
+  background-image: url(../img/banner/snowyScene.jpg);
 }
 
 .video_area {
@@ -966,7 +971,7 @@ h3 {
   font-size: 30px;
   line-height: 80px;
   border-radius: 50%;
-  background: #78b454;
+  background: #FF5D90;
   text-align: center;
   display: inline-block;
 }
@@ -1000,7 +1005,7 @@ h3 {
   right: 10px;
   bottom: 10px;
   background: #fff;
-  color: #78b454;
+  color: #FF5D90;
   padding: 17px 21px 13px 24px;
   border-radius: 5px;
   font-weight: 600;
@@ -1016,7 +1021,7 @@ h3 {
   content: "$";
   left: -5px;
   top: -1px;
-  color: #78b454;
+  color: #FF5D90;
   font-size: 10px;
 }
 .order_area .single_order .order_info h3 a {
@@ -1231,7 +1236,7 @@ h3 {
   display: inline-block;
 }
 .testmonial_area .testmonial_active .owl-dots .owl-dot.active {
-  background: #78b454;
+  background: #FF5D90;
 }
 
 .brand_area {
@@ -1243,7 +1248,7 @@ h3 {
   margin-bottom: 60px;
 }
 .footer-bg {
-  background-image: url(../img/banner/footer-bg.png);
+  background: #FF5D90;
 }
 
 .footer_area {
@@ -1310,7 +1315,7 @@ h3 {
   right: 0;
   top: 0;
   background: #fff;
-  color: #78b454;
+  color: #FF5D90;
   width: 50px;
   border: 0;
   cursor: pointer;
@@ -2730,7 +2735,7 @@ h6 {
   transition: 0.5s;
 }
 .blog_area a:hover, .blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, #78b454 0%, #78b454 99%);
+  background: -webkit-linear-gradient(131deg, #FF5D90 0%, #FF5D90 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
@@ -3107,7 +3112,7 @@ h6 {
   color: #ff8b23;
 }
 .blog_details a:hover {
-  color: #78b454;
+  color: #FF5D90;
 }
 .blog_details h2 {
   font-size: 18px;
@@ -3157,7 +3162,7 @@ h6 {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #78b454;
+  background-color: #FF5D90;
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -3328,7 +3333,7 @@ h6 {
   font-size: 13px;
 }
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #78b454;
+  background: #FF5D90;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
@@ -3507,7 +3512,7 @@ h6 {
   display: inline-block;
 }
 .single-post-area .blog-author a:hover {
-  color: #78b454;
+  color: #FF5D90;
 }
 .single-post-area .blog-author p {
   margin-bottom: 0;
@@ -3814,7 +3819,7 @@ h6 {
   }
 }
 .blog_part .single-home-blog .card .card-body a {
-  color: #78b454;
+  color: #FF5D90;
   text-transform: uppercase;
   transition: 0.8s;
 }
@@ -3834,7 +3839,7 @@ h6 {
   height: 10px;
   top: 5px;
   left: 0;
-  background-color: #78b454;
+  background-color: #FF5D90;
   border-radius: 50%;
 }
 .blog_part .single-home-blog .card span {
