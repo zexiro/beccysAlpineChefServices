@@ -3,6 +3,7 @@
     padding-bottom: 210px;
     background-size: cover;
 background-position: center;
+background-color: $theme-color2;
     @media #{$mobile_device} {
         padding-top: 60px;
         padding-bottom: 160px;
@@ -69,6 +70,7 @@ background-position: center;
             }
         }
     }
+    
 }
 
 
