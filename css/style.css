@@ -499,7 +499,7 @@ h3 {
   z-index: 99999;
 }
 .header-area .logo-img-small img {
-  width: 60px;
+  width: 150px;
 }
 @media (max-width: 767px) {
   .header-area .main-header-area {
@@ -844,7 +844,7 @@ h3 {
 }
 
 .slider_img_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/chamonix_header.png);
 }
 
 .banner-3 {
@@ -1020,7 +1020,7 @@ h3 {
   color: #FF5D90;
   font-size: 10px;
 }
-.order_area .single_order .order_info h3 a {
+.order_area .single_order .order_info h3 {
   font-size: 24px;
   color: #000;
   font-family: "Josefin Sans", sans-serif;
