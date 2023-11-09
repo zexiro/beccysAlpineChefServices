@@ -496,7 +496,6 @@ h3 {
   position: absolute;
   top: 0;
   left: 25px;
-  z-index: 99999;
 }
 .header-area .logo-img-small img {
   width: 150px;
