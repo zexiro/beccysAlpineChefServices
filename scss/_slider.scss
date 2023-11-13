@@ -9,15 +9,23 @@
         background-size: cover;
         background-position: bottom;
         @media #{$mobile_device} {
-            height: 580px;
+            height: 700px;
         }
         @media #{$tablet_device} {
-            height: 680px;
+            height: 750px;
         }
         .single_slider-iner{
             display: table-cell;
             vertical-align: middle;
             text-align: center;
+            @media #{$tablet_device} {
+                vertical-align: bottom;
+                padding-bottom: 100px;
+            }
+            @media #{$mobile_device} {
+                vertical-align: bottom;
+                padding-bottom: 100px;
+            }
         }
         .slider_contant{
             background: #fff;

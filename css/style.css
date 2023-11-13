@@ -493,12 +493,11 @@ h3 {
   -ms-flex-pack: space-between;
 }
 .header-area .logo-img-small {
-  position: absolute;
-  top: 0;
-  left: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .header-area .logo-img-small img {
-  width: 150px;
+  width: 350px;
 }
 @media (max-width: 767px) {
   .header-area .main-header-area {
@@ -788,18 +787,30 @@ h3 {
 }
 @media (max-width: 767px) {
   .slider_area .single_slider {
-    height: 580px;
+    height: 700px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .slider_area .single_slider {
-    height: 680px;
+    height: 750px;
   }
 }
 .slider_area .single_slider .single_slider-iner {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .slider_area .single_slider .single_slider-iner {
+    vertical-align: bottom;
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .slider_area .single_slider .single_slider-iner {
+    vertical-align: bottom;
+    padding-bottom: 100px;
+  }
 }
 .slider_area .single_slider .slider_contant {
   background: #fff;
