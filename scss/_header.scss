@@ -10,7 +10,7 @@
         margin-left: auto;
         margin-right: auto;
         img{
-            width: 350px;
+            width: 500px;
         }
     }
     .main-header-area{
@@ -22,30 +22,30 @@
             padding: 10px 0;
             height: 60px;
         }
-        .logo-img{
-            @media #{$mobile_device} {
-                position: absolute;
-                display: inline-block;
-                text-align: center;
-                margin: 3px auto;
-                z-index: 999;
-                width: 140px;
-                left: 0;
-                right: 0;
-            }
-        }
-        .logo-img{
-            @media #{$tablet_device} {
-                position: absolute;
-                display: inline-block;
-                text-align: center;
-                margin: 3px auto;
-                z-index: 999;
-                width: 140px;
-                left: 0;
-                right: 0;
-            }
-        }
+        // .logo-img{
+        //     @media #{$mobile_device} {
+        //         position: absolute;
+        //         display: inline-block;
+        //         text-align: center;
+        //         margin: 3px auto;
+        //         z-index: 999;
+        //         width: 140px;
+        //         left: 0;
+        //         right: 0;
+        //     }
+        // }
+        // .logo-img{
+        //     @media #{$tablet_device} {
+        //         position: absolute;
+        //         display: inline-block;
+        //         text-align: center;
+        //         margin: 3px auto;
+        //         z-index: 999;
+        //         width: 140px;
+        //         left: 0;
+        //         right: 0;
+        //     }
+        // }
         .main-menu{
             ul{
                 li{
@@ -174,7 +174,7 @@
             .logo-img{
                 display: inline-block;
                 img{
-                    width: 200px;
+                    width: 400px;
                 }
             }
             .main-menu{
@@ -269,10 +269,11 @@
         }
     }
 }
-.logo-img{
-    display: inline-block;
-    img{
-        width: 350px;
+.logo-img {   
+    justify-content: center; 
+    align-items: center;
+    img {
+        width: 500px;
     }
 }
 .header-area {

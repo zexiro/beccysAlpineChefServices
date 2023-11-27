@@ -3,29 +3,22 @@
     .single_slider{
         background-size: cover;
         background-position: center;
-        height: 1080px;
+        height: 1100px;
         display: table;
         width: 100%;
         background-size: cover;
         background-position: bottom;
         @media #{$mobile_device} {
-            height: 700px;
+            height: 850px;
         }
         @media #{$tablet_device} {
-            height: 750px;
+            height: 950px;
         }
         .single_slider-iner{
             display: table-cell;
-            vertical-align: middle;
+            vertical-align: bottom;
             text-align: center;
-            @media #{$tablet_device} {
-                vertical-align: bottom;
-                padding-bottom: 100px;
-            }
-            @media #{$mobile_device} {
-                vertical-align: bottom;
-                padding-bottom: 100px;
-            }
+            padding-bottom: 100px;
         }
         .slider_contant{
             background: #fff;

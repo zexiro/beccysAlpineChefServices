@@ -16,7 +16,7 @@
     }
     p{
         font-weight: 300;
-        color: #777777;
+        color: #888;
         margin-bottom: 0;
         br{
             @media #{$tablet_device} {
@@ -29,6 +29,12 @@
         float: right;
         margin-left: 20px;
         margin-bottom: 20px;
+        &.left{
+            float:left !important;
+            margin-left:0px;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
     }
     &.white{
         h3,p{

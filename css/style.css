@@ -79,10 +79,10 @@ li {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 30px;
-  color: #777777;
+  color: #888;
   margin-bottom: 13px;
   font-family: "Josefin Sans", sans-serif;
 }
@@ -328,7 +328,7 @@ h3 {
 }
 .section_title p {
   font-weight: 300;
-  color: #777777;
+  color: #888;
   margin-bottom: 0;
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -341,6 +341,12 @@ h3 {
   float: right;
   margin-left: 20px;
   margin-bottom: 20px;
+}
+.section_title .profile-image.left {
+  float: left !important;
+  margin-left: 0px;
+  margin-right: 20px;
+  margin-top: 20px;
 }
 .section_title.white h3, .section_title.white p {
   color: #fff;
@@ -497,7 +503,7 @@ h3 {
   margin-right: auto;
 }
 .header-area .logo-img-small img {
-  width: 350px;
+  width: 500px;
 }
 @media (max-width: 767px) {
   .header-area .main-header-area {
@@ -509,30 +515,6 @@ h3 {
   .header-area .main-header-area {
     padding: 10px 0;
     height: 60px;
-  }
-}
-@media (max-width: 767px) {
-  .header-area .main-header-area .logo-img {
-    position: absolute;
-    display: inline-block;
-    text-align: center;
-    margin: 3px auto;
-    z-index: 999;
-    width: 140px;
-    left: 0;
-    right: 0;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .header-area .main-header-area .logo-img {
-    position: absolute;
-    display: inline-block;
-    text-align: center;
-    margin: 3px auto;
-    z-index: 999;
-    width: 140px;
-    left: 0;
-    right: 0;
   }
 }
 .header-area .main-header-area .main-menu ul li {
@@ -666,7 +648,7 @@ h3 {
   display: inline-block;
 }
 .header-area .main-header-area.sticky .logo-img img {
-  width: 200px;
+  width: 400px;
 }
 .header-area .main-header-area.sticky .main-menu ul li {
   display: inline-block;
@@ -759,10 +741,11 @@ h3 {
 }
 
 .logo-img {
-  display: inline-block;
+  justify-content: center;
+  align-items: center;
 }
 .logo-img img {
-  width: 350px;
+  width: 500px;
 }
 
 .header-area {
@@ -779,7 +762,7 @@ h3 {
 .slider_area .single_slider {
   background-size: cover;
   background-position: center;
-  height: 1080px;
+  height: 1100px;
   display: table;
   width: 100%;
   background-size: cover;
@@ -787,30 +770,19 @@ h3 {
 }
 @media (max-width: 767px) {
   .slider_area .single_slider {
-    height: 700px;
+    height: 850px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .slider_area .single_slider {
-    height: 750px;
+    height: 950px;
   }
 }
 .slider_area .single_slider .single_slider-iner {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: bottom;
   text-align: center;
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .slider_area .single_slider .single_slider-iner {
-    vertical-align: bottom;
-    padding-bottom: 100px;
-  }
-}
-@media (max-width: 767px) {
-  .slider_area .single_slider .single_slider-iner {
-    vertical-align: bottom;
-    padding-bottom: 100px;
-  }
+  padding-bottom: 100px;
 }
 .slider_area .single_slider .slider_contant {
   background: #fff;
@@ -908,8 +880,12 @@ h3 {
   background-image: url(../img/banner/snowyScene.jpg);
 }
 
+.video_bg_2 {
+  background-image: url(../img/river.jpg);
+}
+
 .video_area {
-  height: 750px;
+  height: 500px;
   background-size: cover;
   background-position: center;
   display: table;
@@ -1386,11 +1362,11 @@ h3 {
 }
 
 .breadcam_bg_1 {
-  background-image: url(../img/banner/common.png);
+  background-image: url(../img/chamonix_header.png);
 }
 
 .breadcam_area {
-  height: 500px;
+  height: 650px;
   display: table;
   width: 100%;
   background-size: cover;
@@ -1400,7 +1376,7 @@ h3 {
 }
 @media (max-width: 767px) {
   .breadcam_area {
-    height: 400px;
+    height: 550px;
   }
 }
 .breadcam_area .breadcam_inner {

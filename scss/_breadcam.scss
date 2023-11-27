@@ -1,8 +1,8 @@
 .breadcam_bg_1{
-    background-image: url(../img/banner/common.png);
+    background-image: url(../img/chamonix_header.png);
 }
 .breadcam_area{
-    height: 500px;
+    height: 650px;
     display: table;
     width: 100%;
     background-size: cover;
@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
     position: relative;
     @media #{$mobile_device} {
-        height: 400px;
+        height: 550px;
     }
     .breadcam_inner{
         display: table-cell;
