@@ -1615,6 +1615,17 @@ h3 {
   }
 }
 
+.menus {
+  text-align: center;
+}
+
+.single-menu {
+  border: 2px solid #FF5D90;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
 #accordion button {
   font-size: 16px;
   font-size: 24px;
