@@ -16,7 +16,7 @@
     $logo = 'img/beccysAlpineChefServicesChamonixLogo.png';
     $link = 'https://www.beccysalpinechefservicechamonix.com';
 
-	$subjectForEmail = "Enquiry via the website from " . $name
+	$subjectForEmail = "Enquiry via the website from " . $name;
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Website enquiry</title></head><body>";
 	$body .= "<table style='width: 100%;'>";
