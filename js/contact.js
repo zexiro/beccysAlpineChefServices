@@ -67,21 +67,15 @@ $(document).ready(function(){
                         $('#contactForm').fadeOut("slow", function() {
                             // On completion of the fade out, show the success message
                             $('#success').fadeIn();
-                            
-                            // Optional: Handling modal dialogs if you're using them
-                            $('.modal').modal('hide'); // Hide any open modals
-                            $('#success').modal('show'); // Show the success modal
                         });
                     },
                     error: function() {
-                        $('#contactForm').fadeTo("slow", 1, function() {
-                            $('#error').fadeIn();
-                            $('.modal').modal('hide');
-                            $('#error').modal('show');
-                        });
+                        // Handle the error scenario
+                        $('#error').fadeIn();
                     }
                 });
             }
+            
         })
     })
         
