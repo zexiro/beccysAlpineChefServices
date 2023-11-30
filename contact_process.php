@@ -21,7 +21,7 @@
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Website enquiry</title></head><body>";
 	$body .= "<table style='width: 100%;'>";
 	$body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
-	$body .= "<a href='{$link}'><img src='{$logo}' width='100px' alt=''></a><br><br>";
+	$body .= "<a href='{$link}'><img src='{$logo}' width='300px' alt=''></a><br><br>";
 	$body .= "</td></tr></thead><tbody><tr>";
 	$body .= "<td style='border:none;'><strong>Name:</strong> {$name}</td>";
 	$body .= "<td style='border:none;'><strong>Email:</strong> {$from}</td>";

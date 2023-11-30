@@ -56,27 +56,31 @@ $(document).ready(function(){
             },
             submitHandler: function(form) {
                 $(form).ajaxSubmit({
-                    type:"POST",
+                    type: "POST",
                     data: $(form).serialize(),
-                    url:"contact_process.php",
+                    url: "contact_process.php",
                     success: function() {
+                        // Disabling form inputs
                         $('#contactForm :input').attr('disabled', 'disabled');
-                        $('#contactForm').fadeTo( "slow", 1, function() {
-                            $(this).find(':input').attr('disabled', 'disabled');
-                            $(this).find('label').css('cursor','default');
-                            $('#success').fadeIn()
-                            $('.modal').modal('hide');
-		                	$('#success').modal('show');
-                        })
+                        
+                        // Fade out the contact form
+                        $('#contactForm').fadeOut("slow", function() {
+                            // On completion of the fade out, show the success message
+                            $('#success').fadeIn();
+                            
+                            // Optional: Handling modal dialogs if you're using them
+                            $('.modal').modal('hide'); // Hide any open modals
+                            $('#success').modal('show'); // Show the success modal
+                        });
                     },
                     error: function() {
-                        $('#contactForm').fadeTo( "slow", 1, function() {
-                            $('#error').fadeIn()
+                        $('#contactForm').fadeTo("slow", 1, function() {
+                            $('#error').fadeIn();
                             $('.modal').modal('hide');
-		                	$('#error').modal('show');
-                        })
+                            $('#error').modal('show');
+                        });
                     }
-                })
+                });
             }
         })
     })
