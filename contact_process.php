@@ -13,7 +13,7 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $logo = 'img/beccysAlpineChefServicesChamonixLogo.png';
+    $logo = 'https://www.beccysalpinechefservicechamonix.com/img/beccysAlpineChefServicesChamonixLogo.png';
     $link = 'https://www.beccysalpinechefservicechamonix.com';
 
 	$subjectForEmail = "Enquiry via the website from " . $name;
