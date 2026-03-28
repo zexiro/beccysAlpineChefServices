@@ -7,6 +7,7 @@ deployment:
     - /bin/cp -R menu.html /home/codehawk/beccysalpinechefservicechamonix.com/
     - /bin/cp -R contact.html /home/codehawk/beccysalpinechefservicechamonix.com/
     - /bin/cp -R gallery.html /home/codehawk/beccysalpinechefservicechamonix.com/
+    - /bin/cp -R blog.html /home/codehawk/beccysalpinechefservicechamonix.com/
     - /bin/cp -R 404.html /home/codehawk/beccysalpinechefservicechamonix.com/
     - /bin/cp -R robots.txt /home/codehawk/beccysalpinechefservicechamonix.com/
     - /bin/cp -R sitemap.xml /home/codehawk/beccysalpinechefservicechamonix.com/
@@ -15,3 +16,4 @@ deployment:
     - /bin/cp -R js /home/codehawk/beccysalpinechefservicechamonix.com/
     - /bin/cp -R img /home/codehawk/beccysalpinechefservicechamonix.com/
     - /bin/cp -R fonts /home/codehawk/beccysalpinechefservicechamonix.com/
+    - /bin/cp -R blog /home/codehawk/beccysalpinechefservicechamonix.com/
