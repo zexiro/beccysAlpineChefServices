@@ -3,14 +3,16 @@
     .mein_menu_list{
         @include flexbox();
         @include align-items(center);
-        @include justify-content(space-between);
+        @include justify-content(flex-end);
 
     }
     .logo-img-small {
         margin-left: auto;
         margin-right: auto;
+        padding: 10px 0;
         img{
-            width: 500px;
+            width: 160px;
+            max-width: 80vw;
         }
     }
     .main-header-area{
