@@ -1,0 +1,40 @@
+# Force HTTPS
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# Force www
+RewriteCond %{HTTP_HOST} ^beccysalpinechefservicechamonix\.com$ [NC]
+RewriteRule ^(.*)$ https://www.beccysalpinechefservicechamonix.com/$1 [R=301,L]
+
+# Remove .html extension (redirect .html URLs to clean URLs)
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# Redirect /index to /
+RewriteRule ^index$ / [R=301,L]
+
+# Serve .html files for extensionless URLs (internal rewrite, no redirect)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+# Custom 404 page
+ErrorDocument 404 /404.html
+
+# Enable GZIP compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/css text/javascript application/javascript application/json image/svg+xml
+</IfModule>
+
+# Browser caching
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/svg+xml "access plus 1 month"
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType application/javascript "access plus 1 week"
+    ExpiresByType text/html "access plus 1 hour"
+</IfModule>

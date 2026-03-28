@@ -1,6 +1,7 @@
 ---
 deployment:
   tasks:
+    - /bin/cp -R .htaccess /home/codehawk/beccysalpinechefservicechamonix.com/
     - /bin/cp -R index.html /home/codehawk/beccysalpinechefservicechamonix.com/
     - /bin/cp -R services.html /home/codehawk/beccysalpinechefservicechamonix.com/
     - /bin/cp -R menu.html /home/codehawk/beccysalpinechefservicechamonix.com/
