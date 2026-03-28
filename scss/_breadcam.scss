@@ -2,16 +2,16 @@
     background-image: url(../img/chamonix_header.png);
 }
 .breadcam_area{
-    height: 650px;
+    height: 300px;
     display: table;
     width: 100%;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
-    padding-top: 280px;
+    padding-top: 180px;
     @media #{$mobile_device} {
-        height: 550px;
+        height: 250px;
     }
     .breadcam_inner{
         display: table-cell;
