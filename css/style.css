@@ -503,7 +503,7 @@ h3 {
   padding: 10px 0;
 }
 .header-area .logo-img-small img {
-  width: 160px;
+  width: 200px;
   max-width: 80vw;
 }
 @media (max-width: 767px) {
@@ -651,7 +651,7 @@ h3 {
   display: inline-block;
 }
 .header-area .main-header-area.sticky .logo-img img {
-  width: 120px;
+  width: 180px;
 }
 .header-area .main-header-area.sticky .main-menu ul li {
   display: inline-block;
@@ -748,7 +748,7 @@ h3 {
   align-items: center;
 }
 .logo-img img {
-  width: 150px;
+  width: 250px;
 }
 
 .header-area {
@@ -1388,6 +1388,7 @@ h3 {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
+  padding-top: 120px;
 }
 @media (max-width: 767px) {
   .breadcam_area {

@@ -9,6 +9,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
+    padding-top: 120px;
     @media #{$mobile_device} {
         height: 550px;
     }
