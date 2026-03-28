@@ -14,6 +14,11 @@ RewriteRule ^ /%1 [R=301,L]
 # Redirect /index to /
 RewriteRule ^index$ / [R=301,L]
 
+# Remove trailing slash (except for root)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^ %1 [R=301,L]
+
 # If request matches a directory AND a .html file of the same name exists, serve the .html
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteCond %{REQUEST_FILENAME}.html -f
