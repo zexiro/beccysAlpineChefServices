@@ -1,0 +1,17 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/codehawk/beccysalpinechefservicechamonix.com/
+    - /bin/cp -R index.html "$DEPLOYPATH"
+    - /bin/cp -R services.html "$DEPLOYPATH"
+    - /bin/cp -R menu.html "$DEPLOYPATH"
+    - /bin/cp -R contact.html "$DEPLOYPATH"
+    - /bin/cp -R gallery.html "$DEPLOYPATH"
+    - /bin/cp -R 404.html "$DEPLOYPATH"
+    - /bin/cp -R robots.txt "$DEPLOYPATH"
+    - /bin/cp -R sitemap.xml "$DEPLOYPATH"
+    - /bin/cp -R contact_process.php "$DEPLOYPATH"
+    - /bin/cp -R css "$DEPLOYPATH"
+    - /bin/cp -R js "$DEPLOYPATH"
+    - /bin/cp -R img "$DEPLOYPATH"
+    - /bin/cp -R fonts "$DEPLOYPATH"

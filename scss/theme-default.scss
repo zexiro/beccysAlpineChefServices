@@ -2,7 +2,7 @@
 /* 1. Theme default css */
 /*Pink from logo: #FF5D90*/
 /*green from site #78b454*/
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,600,600i,700&display=swap');
+/* Font import is in _varriable.scss — only needs to be declared once */
 body {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: normal;

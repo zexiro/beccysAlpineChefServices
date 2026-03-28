@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /elements
+Disallow: /contact_process.php
+Disallow: /scss/
+Disallow: /content/
+
+Sitemap: https://www.beccysalpinechefservicechamonix.com/sitemap.xml

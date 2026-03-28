@@ -18,11 +18,13 @@
         @media #{$mobile_device} {
             margin-bottom: 30px;
         }
-        h3{
+        h3,
+        .heading{
             font-size: 18px;
             font-weight: 600;
             color: #fff;
             margin-bottom: 40px;
+            display: block;
             @media #{$mobile_device} {
                 margin-bottom: 20px;
             }
